@@ -1,0 +1,55 @@
+# --- Node & Next.js ---
+node_modules/
+.next/
+out/
+dist/
+.DS_Store
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS files ---
+Thumbs.db
+.DS_Store
+
+# --- Office Documents (prevent heavy accidental commits) ---
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+*.xlsx
+*.xls
+*.csv
+*.pages
+*.numbers
+*.key
+
+# --- Media Files (keep repo small) ---
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.flv
+*.wav
+*.mp3
+*.heic
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+
+# --- Your local folders not meant for GitHub ---
+/RealEstateEnhanced/
+/RealWorldRealEstateAnalytics/
+/private/
+/backups/
+/notes/
