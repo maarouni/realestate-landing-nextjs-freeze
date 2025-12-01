@@ -21,10 +21,11 @@ export default function Home() {
           and brokers.
         </h1>
 
-        <p className="text-lg md:text-xl text-slate-200 mb-8">
-          Grade any property in seconds with ROI, IRR, cash flow, equity
-          multiple, 10-year projections, and deal-quality grading — all without
-          spreadsheets or logins.
+        <p className="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed">
+          Grade any property in seconds with <br />
+          ROI, IRR, cash flow, a clear breakeven year, <br />
+          equity multiple, 10-year projections, <br />
+          and deal-quality grading — all without spreadsheets or logins.
         </p>
 
         {/* BUTTONS */}
