@@ -20,12 +20,9 @@ export default function Home() {
           <br />
           and brokers.
         </h1>
-
-        <p className="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed">
-          Grade any property in seconds with <br />
-          ROI, IRR, cash flow, a clear breakeven year, <br />
-          equity multiple, 10-year projections, <br />
-          and deal-quality grading — all without spreadsheets or logins.
+         <p className="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed max-w-3xl mx-auto">
+         Grade any property in seconds with ROI, IRR, cash flow, breakeven year, equity multiple, 
+         10-year projections, and deal-quality grading — no spreadsheets or logins.
         </p>
 
         {/* BUTTONS */}
@@ -96,45 +93,77 @@ export default function Home() {
   </div>
 </section>
 
-      {/* WHY AGENTS & TEAMS USE IT */}
-      <section className="features max-w-5xl mx-auto mb-20">
-        <h2 className="text-3xl font-bold mb-8 text-center">
-          Why Agents &amp; Teams Use It
-        </h2>
+{/* WHY AGENTS & TEAMS USE IT */}
+<section className="features max-w-5xl mx-auto mb-20">
+  <h2 className="text-3xl font-bold mb-2 text-center">
+    Why Agents &amp; Teams Use It
+  </h2>
 
-        <div className="grid gap-8 md:grid-cols-3">
-          {/* Card 1 */}
-          <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
-            <h3 className="text-xl font-semibold mb-3">Instant Deal Math</h3>
-            <p className="text-slate-200 text-sm">
-              ROI, IRR, cash-on-cash, cap rate, and 10-year projections in
-              seconds — zero formulas, zero spreadsheets.
-            </p>
-          </div>
+  {/* TESTIMONIAL – Trusted by Professionals */}
+  <section className="w-full my-10">
+    <div className="max-w-3xl mx-auto">
+      <div
+        className="
+          bg-slate-900/50 
+          border border-slate-700 
+          rounded-2xl 
+          p-8 
+          shadow-lg 
+          text-center
+        "
+      >
+        <h3 className="text-xl font-semibold text-slate-100 mb-4">
+          ⭐ Trusted by Professionals
+        </h3>
 
-          {/* Card 2 */}
-          <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
-            <h3 className="text-xl font-semibold mb-3">
-              Instant Client-Ready PDF &amp; Email Reports
-            </h3>
-            <p className="text-slate-200 text-sm">
-              Auto-generate a PDF with summary, metrics, and AI-written
-              explanation for your client — ready to email instantly.
-            </p>
-          </div>
+        <p className="italic text-slate-200 text-lg leading-relaxed">
+          “This tool is the first thing I use when evaluating a property. 
+          It gives me fast clarity, removes guesswork, and helps my clients 
+          feel confident in their decisions.”
+        </p>
 
-          {/* Card 3 */}
-          <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
-            <h3 className="text-xl font-semibold mb-3">
-              No Logins, Full Privacy
-            </h3>
-            <p className="text-slate-200 text-sm">
-              Runs fully in the browser. No accounts, no stored data — perfect
-              for open houses on agent tablets.
-            </p>
-          </div>
-        </div>
-      </section>
+        <p className="mt-4 text-slate-300 font-semibold">
+          — Behruz Sadeghi, Broker, Royal LePage
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {/* FEATURE CARDS */}
+  <div className="grid gap-8 md:grid-cols-3">
+    {/* Card 1 */}
+    <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
+      <h3 className="text-xl font-semibold mb-3">Instant Deal Math</h3>
+      <p className="text-slate-200 text-sm">
+        ROI, IRR, cash-on-cash, cap rate, and 10-year projections in
+        seconds — zero formulas, zero spreadsheets.
+      </p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
+      <h3 className="text-xl font-semibold mb-3">
+        Instant Client-Ready PDF &amp; Email Reports
+      </h3>
+      <p className="text-slate-200 text-sm">
+        Auto-generate a PDF with summary, metrics, and AI-written
+        explanation for your client — ready to email instantly.
+      </p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-6 shadow-lg animate-card">
+      <h3 className="text-xl font-semibold mb-3">
+        No Logins, Full Privacy
+      </h3>
+      <p className="text-slate-200 text-sm">
+        Runs fully in the browser. No accounts, no stored data — perfect
+        for open houses on agent tablets.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* HOW IT WORKS */}
       <section className="max-w-3xl mx-auto mb-20 text-left">
