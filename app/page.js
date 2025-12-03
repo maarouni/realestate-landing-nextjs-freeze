@@ -118,7 +118,7 @@ export default function Home() {
 
         <p className="italic text-slate-200 text-lg leading-relaxed">
           “This tool is the first thing I use when evaluating a property. 
-          It gives me fast clarity, removes guesswork, and helps my clients 
+          It gives me fast clarity, removes uncertainty, and helps my clients 
           feel confident in their decisions.”
         </p>
 
