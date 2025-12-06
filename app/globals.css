@@ -1,0 +1,56 @@
+/* --------------------------------------------- */
+/* Tailwind Base Imports                         */
+/* --------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------------------------------- */
+/* Global Styles                                  */
+/* --------------------------------------------- */
+
+body {
+  background-color: #020617; /* Slate-950 */
+  color: #ffffff;
+  font-family: system-ui, sans-serif;
+}
+
+/* --------------------------------------------- */
+/* Animations (Fade In + Glow Border)             */
+/* --------------------------------------------- */
+
+/* Fade-in upward animation */
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade-in animation */
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+}
+
+/* Soft glowing border animation */
+@keyframes glow {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Apply glow animation */
+.animate-glow {
+  animation: glow 2.8s ease-in-out infinite;
+}
