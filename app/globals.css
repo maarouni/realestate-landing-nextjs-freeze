@@ -54,3 +54,43 @@ body {
 .animate-glow {
   animation: glow 2.8s ease-in-out infinite;
 }
+@keyframes sparkle {
+  0% { opacity: 0.4; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.2) rotate(20deg); }
+  100% { opacity: 0.4; transform: scale(0.8) rotate(0deg); }
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.animate-sparkle-delayed {
+  animation: sparkle 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+/* ============================
+   CARD GLOW ANIMATION (Upgraded)
+   ============================ */
+
+@keyframes pulse-card {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.0);  /* no glow */
+  }
+  50% {
+    box-shadow:
+      0 0 35px 12px rgba(250, 204, 21, 0.45);      /* bright gold halo */
+  }
+}
+
+.animate-card {
+  animation: pulse-card 4s ease-in-out infinite;
+}
